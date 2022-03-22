@@ -1,0 +1,59 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .center {
+    padding-left: calc(50% - 342ox);
+    padding-right: calc(50% - 342px);
+  }
+  .for_item {
+    height: 266px;
+  }
+  .foot_logo {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .center {
+    padding-left: calc(50% - 342px);
+    padding-right: calc(50% - 342px);
+  }
+  .for_item {
+    height: 266px;
+  }
+  .foot_logo {
+    display: none;
+  }
+  .input__text {
+    display: none;
+  }
+  .home {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .home_desc {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .catalog_link {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+/*# sourceMappingURL=catalog.css.map */

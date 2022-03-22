@@ -1,0 +1,15 @@
+@media ( max-width: 1023px) and (min-width: 768px) {
+    .center {
+        padding-left: calc(50% - 342px);
+        padding-right: calc(50% - 342px);
+    }
+    .for_item {
+        height: 266px;
+    }
+    .foot_logo {
+        display: none;
+    }
+    .ordering {
+        width: 376px;
+    }
+}

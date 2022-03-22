@@ -1,0 +1,29 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .center {
+    padding-left: calc(50% - 448px);
+    padding-right: calc(50% - 448px);
+  }
+  .for_item {
+    height: 266px;
+  }
+  .foot_logo {
+    display: none;
+  }
+  .basket_all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 450px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .basket_odred_box {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+/*# sourceMappingURL=basket.css.map */

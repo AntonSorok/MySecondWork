@@ -1,0 +1,125 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50%/2 - 80px);
+        padding-right: calc(50%/2 - 80px);
+    }
+    img {
+        max-width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        height: 22px;
+        width: 99px;
+    }
+    .special_filter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .home {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .home_desc {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .catalog_link {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+    .input__text {
+        display: none;
+    }
+    .header {
+        padding-top: 32px;
+    }
+    .top {
+        height: 100vh;
+        text-align: center;
+    }
+    .header_link {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+    .special {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .for_grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .for_item {
+        font-size: 28px;
+        line-height: 34px;
+        grid-column: 1/-1;
+        height: 375x;
+    }
+    .for_item_big {
+        height: 244px;
+    }
+    .special {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .cost {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .footer_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 32px;
+    }
+    .foot_logo {
+        display: none;
+    }
+    .order_box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100px;
+        max-width: 375px;
+    }
+    .basket_all {
+        display: flex;
+        flex-direction: column;
+        gap: 450px;
+    }
+    .order_mame {
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    .name_desc {
+        font-size: 12px;
+        line-height: 15px;
+        color: #888888;
+    }
+    .order_price {
+        font-size: 12px;
+        line-height: 15px;
+        color: #050505;
+    }
+    .basket_pic {
+        display: none;
+    }
+    .order_small_box {
+        max-width: 767px;
+    }
+    .ordering {
+        width: 343px;
+    }
+}

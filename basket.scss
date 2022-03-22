@@ -1,0 +1,21 @@
+@media ( max-width: 1023px) and (min-width: 768px) {
+    .center {
+        padding-left: calc(50% - 342px);
+        padding-right: calc(50% - 342px);
+    }
+    .for_item {
+        height: 266px;
+    }
+    .foot_logo {
+        display: none;
+    }
+    .basket_all {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 450px;
+        justify-content: space-between;
+    }
+    .basket_odred_box {
+        max-width: max-content;
+    }
+}
